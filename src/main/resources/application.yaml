@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:7878/devtrack_db
     username: postgres
-    password: xedice2008
+    password: ${DB_PASSWORD}
 
   jpa:
     hibernate:
